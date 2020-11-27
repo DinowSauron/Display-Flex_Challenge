@@ -2,13 +2,13 @@
  O Objetivo é criar um layout com display flex e deixa-lo responsivo.
 
 
-O desafio foi criado no figma por um amigo meu [Georgeo Ori](https://github.com/Ge-Ori), para ele treinar seus conhecimentos, porém, quando eu fui tentar fazer, não me contentei somente com aquele formato do grid e quis algo mais abrangente, algo que pude-se ser utilizado mesmo trocando o tamanho e posição dos icones, por este motivo eu tentei deixa-lo o mais simples possivel, inspirado na estrutura do bootstrap, fiz sistema de linhas e colunas, tornando mais facil uma construção de grid sem muitas limitações.
+O desafio foi criado no figma por um amigo, [Georgeo Ori](https://github.com/Ge-Ori), para ele treinar seus conhecimentos, porém, quando eu fui tentar fazer, não me contentei somente com aquele formato do grid e quis algo mais abrangente, algo que pude-se ser utilizado mesmo trocando o tamanho e posição dos icones, por este motivo eu tentei deixa-lo o mais simples possivel, inspirado na estrutura do bootstrap, fiz sistema de linhas e colunas, tornando mais facil uma construção de grid sem muitas limitações.
 
 Como não estou utilizando o display:flex para o grid, há limitações, porém se seu layout tiver uma forma parescida, com certeza é possivel reproduzilo, apenas pegue o arquivo flex-grid.css e use em seu projeto dando os creditos necessários.
 
 Acesse o site agora e vejá por você mesmo o grid feito em display flex!
 
-- Site temporariamente indisponivel, vonte em algumas horas...
+[Entre no site clicando aqui!](https://dinowsauron.github.io/Display-Flex_Challenge/)
 
 ---
 ## Tecnologias utilizadas:
