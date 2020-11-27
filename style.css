@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-X: hidden;
+}
+
+header{
+    width: 100vw;
+    height: clamp(50px, 8vh, 100px);
+    background-color: #ddd;
+}
+.logo{
+    position: absolute;
+    margin-top: 8px;
+    top: 0;
+    left: calc(50% - clamp(120px, 20vw, 250px) / 2);
+    background: #fffa;
+    padding: 0 5px 0 5px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    z-index: 5;
+
+}
+.logo img{
+    width: clamp(120px, 20vw, 250px);
+}
+
+.explain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    width: 40vw;
+    height: 100%;
+}
+p{
+    margin: 0;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    font-size: clamp(10pt, 1.2vw, 15pt);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    height: 80px;
+}
+
+
+
+/* Grid Flex */
+.content{
+    width: 100vw;
+    z-index: 1;
+}
+.area{
+    /* background: #555; */
+    width: 100%;
+    height: 100px;
+}
+div.vertical-fill{
+    height: 100%;
+}
+div.horizontal-fill{
+    width: 100%;
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.col{
+    width: 50%;
+    height: 100%;
+}
+
+.block{
+    display: block;
+}
+
+
+/*responsividade*/
+@media(max-width: 600px){
+    
+    div.area{
+        width: 100vw;
+        height: 50vw;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .explain{
+        display: none;
+    }
+    p{
+        font-size: 8pt;
+    }
+}
